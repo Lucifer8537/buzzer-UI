@@ -1,0 +1,49 @@
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  
+  .menu-container {
+    display: grid;
+    font-family: fantasy;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
+  }
+  .menu-title {
+    font-size: xx-large;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .btn {
+    font-size: larger;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .admin-btn {
+    background-color: lightblue;
+  }
+  
+  .player-btn {
+    background-color: lightcoral;
+  }
+  
+  .admin-btn:hover {
+    background-color: blue;
+  }
+  
+  .player-btn:hover {
+    background-color: coral;
+  }
+  
