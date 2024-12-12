@@ -9,10 +9,11 @@
   background-color: lightskyblue;
   padding: 2em;
   border-radius: 2em;
-  display: grid;
+  display: flex;
   gap: 1em;
   max-height: 60vh;
-  height: 100%;
+  height: fit-content;
+  flex-direction: column;
 }
 .admin-title {
   text-align: center;

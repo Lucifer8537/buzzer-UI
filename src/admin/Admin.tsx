@@ -12,18 +12,6 @@ export function Admin() {
     { id: "1asdad2", name: "Test1", status: true },
     { id: "123dadads", name: "Test2", status: false },
     { id: "12sdada2", name: "Test3", status: true },
-    { id: "1asdad2", name: "Test1", status: true },
-    { id: "123dadads", name: "Test2", status: false },
-    { id: "12sdada2", name: "Test3", status: true },
-    { id: "1asdad2", name: "Test1", status: true },
-    { id: "123dadads", name: "Test2", status: false },
-    { id: "12sdada2", name: "Test3", status: true },
-    { id: "1asdad2", name: "Test1", status: true },
-    { id: "123dadads", name: "Test2", status: false },
-    { id: "12sdada2", name: "Test3", status: true },
-    { id: "1asdad2", name: "Test1", status: true },
-    { id: "123dadads", name: "Test2", status: false },
-    { id: "12sdada2", name: "Test3", status: true },
   ];
   const handleCopy = () => {
     navigator.clipboard

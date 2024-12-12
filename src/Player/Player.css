@@ -1,0 +1,59 @@
+.player-container {
+  background-color: lightcoral;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.player-details-container {
+  background-color: coral;
+  padding: 2em;
+  border-radius: 2em;
+  display: flex;
+  gap: 1em;
+  max-height: 60vh;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player-title {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-family: fantasy;
+}
+.player-form {
+  grid-template-columns: max-content max-content;
+  display: grid;
+  gap: 0.5em 1em;
+  color: white;
+  font-size: large;
+  font-family: fangsong;
+  font-weight: 700;
+}
+
+.player-form input {
+  border-color: transparent;
+  border-radius: 25px;
+  outline: none;
+  padding: 0 1em;
+}
+.join-btn {
+  width: fit-content;
+  border-color: transparent;
+  color: white;
+  background-color: orangered;
+  font-size: large;
+  font-weight: 800;
+  font-family: fangsong;
+  padding: 0.3em 1em;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.join-btn:hover {
+  color: orangered;
+  background-color: white;
+}

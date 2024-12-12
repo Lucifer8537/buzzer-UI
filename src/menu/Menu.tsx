@@ -13,7 +13,9 @@ export function Menu() {
             <Link to="/admin">
               <button className="admin-btn btn"> {Label.ADMIN} </button>
             </Link>
-            <button className="player-btn btn"> {Label.PLAYER} </button>
+            <Link to="/player">
+              <button className="player-btn btn"> {Label.PLAYER} </button>
+            </Link>
           </div>
         </div>
       </div>
