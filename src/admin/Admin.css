@@ -1,0 +1,95 @@
+.admin-container {
+  background-color: lightblue;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.admin-details-container {
+  background-color: lightskyblue;
+  padding: 2em;
+  border-radius: 2em;
+  display: grid;
+  gap: 1em;
+  max-height: 60vh;
+  height: 100%;
+}
+.admin-title {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-family: fantasy;
+}
+.otp-container {
+  display: flex;
+  gap: 1em;
+  font-size: large;
+  align-items: center;
+  color: white;
+}
+.otp-title {
+  color: royalblue;
+  font-family: emoji;
+  font-weight: bolder;
+}
+.otp {
+  font-family: math;
+}
+.copy-btn {
+  cursor: pointer;
+  font-size: small !important;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid royalblue;
+  border-collapse: collapse;
+}
+.reset-btn {
+  background-color: royalblue;
+  border-color: transparent;
+  font-family: fangsong;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: white;
+  color: royalblue;
+}
+.player-table {
+  color: white;
+  text-align: center;
+}
+.player-table-header {
+  color: royalblue;
+}
+
+td,
+th {
+  padding: 0.3em 1em;
+}
+
+.green {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: lawngreen;
+  margin: 0 auto;
+}
+
+.red {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: red;
+  margin: 0 auto;
+}
+.table-container {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
